@@ -12,7 +12,7 @@ def save_score(player_name, score, total_questions):
     # Calculate percentage
     percentage = (score / total_questions) * 100
     
-    # Create score entry
+    # score entry dictionary
     score_entry = {
         "name": player_name,
         "score": score,
